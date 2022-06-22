@@ -123,3 +123,21 @@ a{
     }
     
 }
+/* Icons */
+.icon-container{
+    background: #f3f9fa;
+    border-radius: 100%;
+    width: 64px;
+    height: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.icon{
+    height: 40px;
+    width: 40px;
+}
+.icon--primary{
+    fill: var(--primary-color);
+}
