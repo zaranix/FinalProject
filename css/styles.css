@@ -200,3 +200,23 @@ color: #fff;
     }
     
 }
+/* Input */
+.input{
+    border-radius: 40px;
+    font-size: 2rem;
+    border: 1px solid #ccc;
+    padding: 1.5rem 3.5rem;
+    outline: 0;
+    color: var(--heading-color);
+    
+
+}
+::placeholder{
+color: #ccc;
+}
+@media screen and (min-width:1024px) {
+    .input{
+        font-size: 1.5rem;
+    }
+    
+}
