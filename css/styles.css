@@ -1,3 +1,6 @@
+*,*::after,*::before{
+    box-sizing: border-box;
+}
 :root{
     --accent-color: #ff3300;
     --primary-color: #2584ff;
@@ -140,4 +143,60 @@ a{
 }
 .icon--primary{
     fill: var(--primary-color);
+}
+
+/* BTN */
+.btn{
+    font-size: 1.8rem;
+    border-radius: 40px;
+    padding: 2rem 3rem;
+    margin: 1rem 0;
+   text-align: center;
+    border: 0;
+    font-weight: 600;
+   text-transform: uppercase;
+   cursor: pointer;
+}
+.btn--block{
+    display: block;
+    width: 100%;   
+}
+.btn--primary{
+background: var(--heading-color);
+color: #fff;
+
+}
+.btn--primary:hover{
+    background: #3a8ffd;
+}
+.btn--outline{
+    background: #fff;
+ border: 2px solid var(--heading-color);
+  color: var(--heading-color);
+   
+}
+.btn--outline:hover{
+    background: var(--heading-color);
+    color: #fff;
+    border:0;
+}
+.btn--secondary{
+    background: var(--primary-color);
+    color: #fff;
+}
+.btn--secondary:hover{
+    background: #00c8eb;
+}
+.btn--accent{
+    background: var(--accent-color);
+    color: #fff;
+}
+.btn--accent:hover{
+    background: #fd4516
+}
+@media screen and (min-width:1024px) {
+    .btn{
+        font-size: 1.5rem;
+    }
+    
 }
