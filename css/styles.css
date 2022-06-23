@@ -141,12 +141,23 @@ a{
     align-items: center;
     
 }
+.icon-container--accent{
+    background: var(--accent-color);
+}
 .icon{
     height: 40px;
     width: 40px;
 }
 .icon--primary{
     fill: var(--primary-color);
+}
+.icon--secondary{
+    fill: #fff;
+   
+}
+.icon--larg{
+    height: 75px;
+    width: 75px;
 }
 
 /* BTN */
@@ -384,4 +395,20 @@ color: #ccc;
     }
     
 }
-
+/*Testimonial*/
+  
+.testimonial{
+    padding: 3rem;
+    
+}
+.testimonial__image-container .testimonial__image{
+    width: 100%;
+}
+.testimonial__icon{
+    position: absolute;
+    right: -32px;
+    top: 3rem;
+}
+.testimonial__image-container{
+    position: relative;
+}
