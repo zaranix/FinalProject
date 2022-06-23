@@ -172,6 +172,9 @@ a{
    text-transform: uppercase;
    cursor: pointer;
 }
+.btn--long{
+    padding: 2rem 6rem;
+}
 .btn--block{
     display: block;
     width: 100%;   
@@ -196,7 +199,7 @@ color: #fff;
     border:0;
 }
 .btn--secondary{
-    background: var(--primary-color);
+    background: var(--secondary-color);
     color: #fff;
 }
 .btn--secondary:hover{
@@ -209,6 +212,7 @@ color: #fff;
 .btn--accent:hover{
     background: #fd4516
 }
+
 @media screen and (min-width:1024px) {
     .btn{
         font-size: 1.5rem;
@@ -411,4 +415,40 @@ color: #ccc;
 }
 .testimonial__image-container{
     position: relative;
+}
+
+/* CallOut*/
+.callout--primary{
+    background: var(--primary-color);
+    color: #fff;
+}
+.callout__btn{
+    display: grid;
+}
+.callout .btn{
+   
+    align-self: center;
+    justify-self: center;
+}
+.callout{
+    padding: 4rem;
+    border-radius: 5px;
+}
+.callout__content h2{
+    color: #fff;
+    margin-top: 0;
+}
+.callout__content{
+    text-align: center;
+}
+@media screen and (min-width:768px) {
+    .callout__content{
+        text-align: left;
+    
+    }
+    .callout .grid--1×2{
+        grid-template-columns: 1fr auto;
+    }
+
+    
 }
