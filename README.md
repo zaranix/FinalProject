@@ -1,6 +1,5 @@
 # Moshified.com Replica
 
-[![GitHub license](https://img.shields.io/github/license/YourUsername/YourRepo)](https://github.com/YourUsername/YourRepo/blob/main/LICENSE)
 
 A replica website inspired by [Moshified.com](https://www.moshified.com/) that showcases various features, animations, and components, and serves as a portfolio project.
 
